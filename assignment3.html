@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   
+    
+    <title>Document</title>
+    <style>
+      
+        body{
+            background: linear-gradient(45deg,skyblue,lightgreen);
+        }
+        hr{
+            border-color: black;
+        }
+       
+        #mail{
+            width: 335px;
+            height: 20px;
+        }
+        #phone{
+            width: 100px;
+            margin-left: 4px;
+            
+        }
+        #msg{
+            width: 200px;
+        }
+        #msg1{
+            width:350px
+
+        }
+
+       
+    </style>
+</head>
+<body>
+    <h3>Contact Form</h3>
+    <table >
+        <form action="">
+
+            <tr >
+                <td> <label for="Yourname">Your Name </label></td>
+                <td colspan="1"><input type="text" id="firstname" placeholder="First Name"></td>
+                <td colspan="1"><input type="text" id="lastname" placeholder="Last Name"></td>
+            </tr>
+            <tr>
+                <td ><label for="your email">Your Email</label></td>
+                <td colspan="3">
+                    <input type="email" placeholder="example@gmail.com" id="mail">
+                </td>
+            </tr>
+            <tr>
+                <td><label for="#phone">Phone*</label></td>
+                <td><input type="text" id="phone" placeholder="###"></td>
+                <td><input type="text" id="phone" placeholder="###"></td>
+                <td><input type="text" id="phone" placeholder="####"></td>
+            </tr>
+            <tr>
+                <td><label for="#msg">Message Subject*</label></td>
+            
+                <td colspan="3">
+                    <select name="" id="msg">
+                        <option value="">other</option>
+                        <option value="">English</option>
+                        <option value="">Maths</option>
+                        <option value="">tamil</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td><label for="#msg">Message*</label></td>
+                <td colspan="3"><textarea name="" id="msg1" cols="20" rows="5"></textarea></td>
+            </tr>
+            <tr>
+                <td><label for="#ver">Verification*</label></td>
+                <td><input type="text" id="#ver"></td>
+            </tr>
+            <tr>
+                <td colspan="4"><hr></td>
+            </tr>
+        </form>
+
+    </table>
+    <h1>
+        <button>SUBMIT FORM</button>
+    </h1>
+    
+</body>
+</html>
